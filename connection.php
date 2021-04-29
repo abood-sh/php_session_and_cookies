@@ -1,3 +1,4 @@
+
 <!-- Database Connection using Singleton pattern -->
 
 <?php
@@ -5,7 +6,7 @@
 class DBConnection {
 	private $servername = "localhost";
 	private $username = "root";
-	private $password = "";
+	private $password = "root";
 	private $dbname = "php_course";
 
 	private $connection;
